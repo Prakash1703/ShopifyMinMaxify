@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "^3.23.0",
+    "@shopify/cli": "^3.23.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.29.0"
+  },
+  "author": "praka"
+}
